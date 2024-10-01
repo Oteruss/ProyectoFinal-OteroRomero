@@ -1,0 +1,111 @@
+  @import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap');
+
+        body {
+            font-family:'Afacad Plus', Tahoma, Geneva, Verdana, sans-serif;            
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            background: rgb(2,0,36);
+            background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+            color: #ffffff;
+        }
+
+        .intro {
+            display: flex;
+            justify-content: center;
+            color: #880044;
+        }
+
+        h1 {
+            font-size: 3rem;
+            font-weight: bolder;
+            padding: 0;
+            margin: 0;
+            color: #ffffff;
+        }
+        h2 {
+            font-size: 2rem;
+            font-weight: bolder;
+            padding: 0;
+            margin: 0;
+            color: #ffffff;
+        }
+
+        p {
+            margin: 3px;
+            color: #ffffff;
+        }
+
+        button {
+            margin: 10px;
+            background-color: #88e23b;
+            padding: 8px 32px;
+            border-radius: 40px;
+            color: #44281d;
+            font-weight: 900;
+        }
+
+        button:hover {
+            margin: 10px;
+            background-color: #f0e14a;
+            border-radius: 40px;
+            color: #2b5c00;
+            font-weight: 900;
+        }
+
+        section {
+        display: flex;
+        justify-content: center;
+        margin: 10px;
+        }
+
+        .chips {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        .chip {
+            padding: 15px 55px;
+            background-color: #88e23b;
+            color: #002749;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .chip:hover {
+            background-color: #6b7132;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 40px;
+            font-weight: 900;
+        }
+
+        #searchInput {
+            margin-bottom: 20px;
+            padding: 10px 180px;
+            border-radius: 40px;
+            border: 3px solid  #015d01
+            ;
+        }
+
+        .character-card {
+            border: 3px solid  #AA1155;
+            background-color: #9f497b;
+            border-radius: 25px;
+            padding: 10px;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .character-image {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+        

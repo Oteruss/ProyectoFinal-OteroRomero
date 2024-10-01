@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+
+    <title>Cotizador Rick & Morty Character</title>
+    
+</head>
+<body>
+    <main>
+        <section class="intro">
+            <div>
+                <h1>¡Suscríbete a tu plan preferido de diseño gráfico multiverso de Rick & Morty!</h1>
+               
+                <p>Planes que se ajustan a tus infinitas necesidades en cualquiera de los multiversos.</p>
+            </div>
+        </section>
+        <h2>1. Selecciona tipo de plan</h2>
+        <div class="chips">
+            <div class="chip" data-character="human">Humano</div>
+            <div class="chip" data-character="alien">Alien</div>
+            <div class="chip" data-character="robot">Robot</div>
+        </div>    
+        <h2>2. Busca tu favorito</h2>
+        <input type="text" id="searchInput" placeholder="Busca tu personaje">
+        
+       
+        <div id="characterList"></div>
+        <button id="viewCartButton">Ver carrito</button>
+
+    </main>
+
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>  
+    <script src="main.js"></script>
+</body>
+</html>
